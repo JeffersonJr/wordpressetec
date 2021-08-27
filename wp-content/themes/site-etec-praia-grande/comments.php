@@ -65,7 +65,7 @@ if ( post_password_required() ) {
 				 * to use theme_comment() to format the comments.
 				 * If you want to overload this in a child theme then you can
 				 * define theme_comment() and that will be used instead.
-				 * See theme_comment() in my-theme/functions.php for more.
+				 * See theme_comment() in my-theme/functions.php for Saber mais.
 				 */
 				wp_list_comments( array( 'callback' => 'site_etec_praia_grande_comment' ) );
 			?>

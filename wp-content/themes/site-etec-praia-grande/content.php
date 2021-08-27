@@ -108,7 +108,7 @@
 			endif;
 		?>
 
-		<a href="<?php echo get_the_permalink(); ?>" class="btn btn-secondary"><?php esc_html_e( 'more', 'site-etec-praia-grande' ); ?></a>
+		<a href="<?php echo get_the_permalink(); ?>" class="btn btn-secondary"><?php esc_html_e( 'Saber mais', 'site-etec-praia-grande' ); ?></a>
 
 		<?php edit_post_link( __( 'Edit', 'site-etec-praia-grande' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- /.entry-meta -->

@@ -61,7 +61,7 @@ if ( is_active_sidebar( 'primary_widget_area' ) || is_archive() || is_single() )
 						if ( ! is_author() ) :
 					?>
 							<li>&nbsp;</li>
-							<li><a href="<?php echo esc_url( get_the_permalink( get_option( 'page_for_posts' ) ) ); ?>" class="btn btn-outline-secondary"><?php esc_html_e( 'more', 'site-etec-praia-grande' ); ?></a></li>
+							<li><a href="<?php echo esc_url( get_the_permalink( get_option( 'page_for_posts' ) ) ); ?>" class="btn btn-outline-secondary"><?php esc_html_e( 'Saber mais', 'site-etec-praia-grande' ); ?></a></li>
 					<?php
 						endif;
 					?>
